@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Vishnu - B.Tech CSE student, developer and technology enthusiast.">
+    <meta name="theme-color" content="#080d19">
+
+    <title>Vishnu | Developer Portfolio</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Connect JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <nav class="nav-container container">
+            <a href="#home" class="logo">RC<span>.</span></a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="navLinks">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-cta">Contact Me ↗</a></li>
+                <li>
+                    <button type="button" id="themeToggle" class="theme-toggle" aria-pressed="false">
+                        Switch to light mode
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    B.Tech CSE Student
+                </div>
+
+                <p class="eyebrow">HELLO, I'M</p>
+
+                <h1>Vishnu<span>.</span></h1>
+
+                <h2>
+                    Aspiring Developer &amp;
+                    <span class="accent-text">Tech Enthusiast</span>
+                </h2>
+
+                <p class="hero-description">
+                    I am a Computer Science student at JECRC University,
+                    Jaipur, passionate about programming, backend development,
+                    innovation and building practical technology solutions.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Work ↗
+                    </a>
+
+                    <a href="#contact" class="btn btn-secondary">
+                        Let's Connect
+                    </a>
+                </div>
+
+                <div class="hero-meta">
+                    <span>📍 Jaipur, Rajasthan, India</span>
+                    <span>🎓 JECRC University</span>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="visual-glow"></div>
+
+                <div class="profile-card">
+                    <div class="card-top">
+                        <span class="window-dot red"></span>
+                        <span class="window-dot yellow"></span>
+                        <span class="window-dot green"></span>
+                        <span class="card-label">developer.js</span>
+                    </div>
+
+                    <div class="code-preview">
+                        <p><span class="code-purple">const</span>
+                           <span class="code-blue">developer</span> = {</p>
+                        <p class="indent">
+                            name: <span class="code-green">'Vishnu'</span>,
+                        </p>
+                        <p class="indent">
+                            education:
+                            <span class="code-green">'B.Tech CSE'</span>,
+                        </p>
+                        <p class="indent">
+                            university:
+                            <span class="code-green">'JECRC'</span>,
+                        </p>
+                        <p class="indent">
+                            interests: [
+                        </p>
+                        <p class="indent-2">
+                            <span class="code-green">'Coding'</span>,
+                        </p>
+                        <p class="indent-2">
+                            <span class="code-green">'Backend'</span>,
+                        </p>
+                        <p class="indent-2">
+                            <span class="code-green">'Innovation'</span>
+                        </p>
+                        <p class="indent">],</p>
+                        <p class="indent">
+                            learning: <span class="code-purple">true</span>
+                        </p>
+                        <p>};</p>
+                        <p class="terminal-line">
+                            <span class="code-blue">console</span>.log(
+                            <span class="code-green">'Hello World!'</span>);
+                        </p>
+                        <p class="terminal-output">
+                            ✓ Always learning, always building.
+                        </p>
+                    </div>
+
+                    <div class="card-footer">
+                        <span>⌘ Creative thinking</span>
+                        <span>● Open to learning</span>
+                    </div>
+                </div>
+
+                <div class="floating-badge badge-top">
+                    <span>💻</span> Developer in progress
+                </div>
+
+                <div class="floating-badge badge-bottom">
+                    <span>⚡</span> Build. Learn. Repeat.
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section container" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+                <p>A curious mind with a passion for technology.</p>
+            </div>
+
+            <div class="about-card">
+                <div class="about-marker">01 / ABOUT</div>
+
+                <div class="about-content">
+                    <h3>Learning today. Building for tomorrow.</h3>
+
+                    <p>
+                        I'm Vishnu, a B.Tech Computer Science and
+                        Engineering student at JECRC University, Jaipur.
+                        I enjoy exploring programming, understanding how
+                        software works and turning ideas into practical
+                        projects.
+                    </p>
+
+                    <p>
+                        I've explored languages such as Python, C, C++ and
+                        Java, along with web technologies and backend
+                        development. My projects include a university
+                        transport FAQ chatbot and a movie-related backend
+                        application.
+                    </p>
+
+                    <p>
+                        My goal is to keep improving my problem-solving
+                        abilities, work on meaningful projects and grow
+                        into a skilled software developer.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section container" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I WORK WITH</p>
+                <h2>My <span>Skills</span></h2>
+                <p>Technologies I have explored and continue to develop.</p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon">⌨️</div>
+                    <h3>Programming</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>C</span>
+                        <span>C++</span>
+                        <span>Java</span>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Web Development</h3>
+                    <div class="skill-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend &amp; Database</h3>
+                    <div class="skill-tags">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">🤖</div>
+                    <h3>Tools &amp; Platforms</h3>
+                    <div class="skill-tags">
+                        <span>Dialogflow</span>
+                        <span>Git / GitHub*</span>
+                    </div>
+                </article>
+            </div>
+
+            <p class="skills-note">
+                *Keep only the technologies and tools you have actually used.
+                Update this list as you learn more.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section container" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">THINGS I'VE BUILT</p>
+                <h2>Featured <span>Projects</span></h2>
+                <p>Practical work that helps me learn by doing.</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-number">PROJECT 01</span>
+                        <span class="project-symbol">🤖</span>
+                    </div>
+
+                    <h3>JECRC Transport FAQ Chatbot</h3>
+
+                    <p>
+                        A Dialogflow-based chatbot concept designed to help
+                        students find university bus routes, schedules,
+                        fares, registration details and transport information.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Dialogflow</span>
+                        <span>Chatbot</span>
+                        <span>FAQ</span>
+                    </div>
+
+                    <a class="project-link"
+                       href="#contact"
+                       aria-label="Ask me about the transport chatbot">
+                        Discuss Project ↗
+                    </a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-top">
+                        <span class="project-number">PROJECT 02</span>
+                        <span class="project-symbol">🎬</span>
+                    </div>
+
+                    <h3>CineMax Backend</h3>
+
+                    <p>
+                        A movie-related backend project using Node.js,
+                        Express and MongoDB, focused on server-side
+                        development, API creation and data management.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                    </div>
+
+                    <a class="project-link"
+                       href="#contact"
+                       aria-label="Ask me about CineMax">
+                        Discuss Project ↗
+                    </a>
+                </article>
+
+                <article class="project-card project-upcoming">
+                    <div class="project-top">
+                        <span class="project-number">PROJECT 03</span>
+                        <span class="project-symbol">🚀</span>
+                    </div>
+
+                    <h3>Your Next Big Idea</h3>
+
+                    <p>
+                        Have another project? Add its name, explain the
+                        problem it solves, list the technologies used and
+                        link to its source code or live demo here.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Problem Solving</span>
+                        <span>Innovation</span>
+                    </div>
+
+                    <a class="project-link"
+                       href="#contact">
+                        More About My Work ↗
+                    </a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section container" id="contact">
+            <div class="contact-card">
+                <p class="eyebrow">HAVE AN IDEA?</p>
+                <h2>Let's build something <span>together.</span></h2>
+
+                <p>
+                    Interested in technology, collaboration or sharing ideas?
+                    I'd love to connect.
+                </p>
+
+                <a class="btn btn-primary"
+                   href="mailto:YOUR_EMAIL@example.com">
+                    Get in Touch ↗
+                </a>
+
+                <p class="contact-note">
+                    Replace the email address with your real email.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <a href="#home" class="logo">RC<span>.</span></a>
+
+            <p>
+                © <span id="currentYear">2026</span>
+                Vishnu. Keep learning, keep building.
+            </p>
+
+            <a href="#home" class="back-to-top">Back to top ↑</a>
+        </div>
+    </footer>
+</body>
+</html>
